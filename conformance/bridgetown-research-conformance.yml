@@ -1,0 +1,16 @@
+generated: '2026-07-18'
+method: searched
+source: >-
+  Compliance claim published on the Bridgetown Research marketing site
+  (https://www.bridgetownresearch.com/) describing the interactive reporting
+  platform as SOC 2 compliant.
+standards:
+- id: soc2
+  name: SOC 2
+  conforms: true
+  evidence: >-
+    Marketing site states the interactive reporting platform is "SOC2 compliant".
+    No third-party attestation report, trust center, or audit date is published,
+    so this is a vendor self-claim only.
+  evidence_url: https://www.bridgetownresearch.com/
+  verified: false

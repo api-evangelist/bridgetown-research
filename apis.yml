@@ -1,8 +1,18 @@
 aid: bridgetown-research
-name: 'Bridgetown Research '
-description: 'Bridgetown Research  is a company surfaced as a portfolio company of accel, lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead
-  awaiting the enrichment pipeline.'
+name: 'Bridgetown Research'
+description: >-
+  Bridgetown Research is an AI-powered research and analysis platform that helps
+  organizations analyze businesses with speed and precision. Its AI agents conduct
+  expert interviews, gather primary and secondary data at scale, and execute 300+
+  of the most common analyses to power autonomous market research and commercial
+  due diligence. The platform serves private equity and venture capital firms,
+  professional services firms, and corporate strategy and development teams, who
+  access it either through a SOC 2-compliant SaaS platform with interactive
+  generative-search reporting or via an email-driven workflow that returns PDF
+  reports. Bridgetown Research also exposes a REST API (documented on Apidog at
+  docs.bridgetownresearch.com) for creating research projects and managing experts,
+  expert actions, and scheduled calls. It is backed by Accel and Lightspeed Venture
+  Partners.
 url: https://raw.githubusercontent.com/api-evangelist/bridgetown-research/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,13 +21,46 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://cdn.prod.website-files.com/676e6115a1e9c0edad94c480/679b83a110de1189f26a4e08_OG%20image%20(3).png
 tags:
 - Company
-- Ai
-apis: []
+- AI
+- Research
+- Market Research
+- Due Diligence
+- Private Equity
+- Consulting
+- Data
+apis:
+- name: Bridgetown Research API
+  description: >-
+    REST API for creating and managing autonomous research projects — create a
+    project, manage experts and expert actions, schedule calls with experts, and
+    post call-completion details. Documented on Apidog.
+  humanURL: https://docs.bridgetownresearch.com/
+  baseURL: https://api.bridgetownresearch.com
+  tags:
+  - Research
+  - AI
+  properties:
+  - type: Documentation
+    url: https://docs.bridgetownresearch.com/
+  - type: APIReference
+    url: https://docs.bridgetownresearch.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -26,3 +69,20 @@ maintainers:
 common:
 - type: Website
   url: https://www.bridgetownresearch.com/
+- type: Documentation
+  url: https://docs.bridgetownresearch.com/
+- type: APIReference
+  url: https://docs.bridgetownresearch.com/
+- type: TermsOfService
+  url: https://www.bridgetownresearch.com/terms-and-conditions
+- type: DomainSecurity
+  url: security/bridgetown-research-domain-security.yml
+- type: Conformance
+  url: conformance/bridgetown-research-conformance.yml
+- type: Compliance
+  url: conformance/bridgetown-research-conformance.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

@@ -1,4 +1,4 @@
-# Bridgetown Research 
+# Bridgetown Research
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,6 +64,87 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Bridgetown Research  is a company surfaced as a portfolio company of accel, lightspeed-venture-partners and added to the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.
+Bridgetown Research is an AI-powered research and analysis platform that helps organizations analyze businesses with speed and precision. Its AI agents conduct expert interviews, gather primary and secondary data at scale, and execute 300+ of the most common analyses to power autonomous market research and commercial due diligence. The platform serves private equity and venture capital firms, professional services firms, and corporate strategy and development teams, who access it either through a SOC 2-compliant SaaS platform with interactive generative-search reporting or via an email-driven workflow that returns PDF reports. Bridgetown Research also exposes a REST API (documented on Apidog at docs.bridgetownresearch.com) for creating research projects and managing experts, expert actions, and scheduled calls. It is backed by Accel and Lightspeed Venture Partners.
 
-Backed by: accel, lightspeed-venture-partners — https://www.bridgetownresearch.com/
+**Areas:** Company · Artificial Intelligence · Research · Market Research · Due Diligence · Private Equity · Consulting · Data
+
+## Bridgetown Research on APIs.io
+
+Everything profiled for Bridgetown Research is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/bridgetown-research/](https://apis.io/providers/bridgetown-research/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Bridgetown Research API](https://apis.io/apis/bridgetown-research/bridgetown-research-api/) — REST API for creating and managing autonomous research projects — create a project, manage experts and expert actions, schedule calls with experts, and post…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Bridgetown Research Domain Security](https://apis.io/security/bridgetown-research/bridgetown-research-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.bridgetownresearch.com/)
+- [Documentation](https://docs.bridgetownresearch.com/)
+- [API reference](https://docs.bridgetownresearch.com/)
+- [Blog](https://www.bridgetownresearch.com/blog)
+- [Terms of service](https://www.bridgetownresearch.com/terms-and-conditions)
+
+## API Evangelist rating
+
+**Kin Score 15.1** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 10.7 |
+| Access clarity | 18.4 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 18.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/bridgetown-research/](https://apis.io/providers/bridgetown-research/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Bridgetown Research: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/bridgetown-research/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
